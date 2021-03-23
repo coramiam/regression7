@@ -1,37 +1,29 @@
 {
-  "name": "BlankProcess48",
-  "projectId": "608cbc3d-1ec0-4af3-850b-96a00620feee",
-  "description": "Blank Process",
+  "name": "REFramework",
+  "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.22.2]",
-    "UiPath.Mail.Activities": "[1.21.1]",
-    "UiPath.System.Activities": "[23.10.2]",
-    "UiPath.Testing.Activities": "[23.10.0]",
-    "UiPath.UIAutomation.Activities": "[23.10.3]"
+    "UiPath.Excel.Activities": "[2.10.3-beta.1504331]",
+    "UiPath.System.Activities": "[21.4.0-beta.1503564]",
+    "UiPath.UIAutomation.Activities": "[21.4.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "23.12.0.0",
-  "projectVersion": "1.0.4",
+  "studioVersion": "21.4.0.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
-    "netFrameworkLazyLoading": false,
     "isPausable": true,
-    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
-    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false,
-    "mustRestoreAllDependencies": true,
-    "pipType": "ChildSession"
+    "startsInPiP": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -44,14 +36,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true,
-    "saveToCloud": false
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "69d5ebba-4ed2-41e6-b009-b6b7871c3b20",
+      "uniqueId": "7363e08c-069d-49eb-a80f-f909d1fb25b3",
       "input": [],
       "output": []
     }
@@ -59,5 +50,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Windows"
+  "targetFramework": "Legacy"
 }
