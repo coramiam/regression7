@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="-9, -9, 1938, 1048" ContentHash="idfttCRoAke4uYJ15MMT8w" FilePath="C:\Program Files\Notepad++\notepad++.exe" Selector="&lt;wnd app='notepad++.exe' cls='Notepad++' title='C:\Users\coramia.motoi.UIPATH\.ssh\id_ed25519.pub - Notepad++'/&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0OWK1VqlWukG3_d8wnHTBWQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="912ba4cbbde4699ceaa6e470b4230cc7.png" xmlns="">0IFGnsQDg906hhI1-JrAd0Q</imageRef>
+</TargetApp>

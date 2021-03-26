@@ -1,0 +1,14 @@
+﻿{
+  "Id": "THeAXPjQm02GwK9sLB1QFQ",
+  "Reference": "rXCorVzSrUynV6WzqA70lg/THeAXPjQm02GwK9sLB1QFQ",
+  "ParentRef": "rXCorVzSrUynV6WzqA70lg/LKJx8X9yX0GNbj9nf58PXw",
+  "Name": "Click 'Start Recording'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-03-26T13:07:04.7579229Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-03-26T13:07:04.7579229Z"
+}

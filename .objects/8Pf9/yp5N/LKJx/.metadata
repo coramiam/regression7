@@ -1,0 +1,14 @@
+﻿{
+  "Id": "LKJx8X9yX0GNbj9nf58PXw",
+  "Reference": "rXCorVzSrUynV6WzqA70lg/LKJx8X9yX0GNbj9nf58PXw",
+  "ParentRef": "rXCorVzSrUynV6WzqA70lg/yp5NVo_tHUu1R41XA67Tiw",
+  "Name": "Use Application CUserscoramia.motoi.UIPATH.sshid_",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2021-03-26T13:06:52.2295422Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-03-26T13:06:52.2295422Z"
+}
