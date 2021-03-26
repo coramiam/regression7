@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="782,749.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="719.2,849.6" sap2010:WorkflowViewState.IdRef="Sequence_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -32,52 +32,49 @@
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
-      <AssemblyReference>PresentationCore</AssemblyReference>
-      <AssemblyReference>PresentationFramework</AssemblyReference>
-      <AssemblyReference>System</AssemblyReference>
-      <AssemblyReference>System.Activities</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
-      <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Data</AssemblyReference>
       <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Drawing</AssemblyReference>
-      <AssemblyReference>System.Linq</AssemblyReference>
-      <AssemblyReference>System.ObjectModel</AssemblyReference>
-      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
-      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="512,684.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="475.2,644.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: C:\Users\coramia.motoi.UIPATH\.ssh\id_ed25519.pub - Notepad++" sap:VirtualizedContainerService.HintSize="450,573.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: C:\Users\coramia.motoi.UIPATH\.ssh\id_ed25519.pub - Notepad++" sap:VirtualizedContainerService.HintSize="433.6,552" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,279.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,260.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Click 'Start Recording''" sap:VirtualizedContainerService.HintSize="354,168" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Click 'Start Recording''" sap:VirtualizedContainerService.HintSize="333.6,167.2" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="erZoLYojpU2jtfz0NZx_kg" DesignTimeRectangle="769, 63, 27, 26" ElementType="Button" FriendlyName="'Click 'Start Recording''" FullSelectorArgument="&lt;wnd cls='ToolbarWindow32' /&gt;&lt;ctrl name='Start Recording' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ToolbarWindow32' /&gt;&lt;ctrl name='Start Recording' role='push button' automationid='' check:text='Start Recording' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABrSURBVEhL7c1BDoAgDAXRHr2n8zykF6jpgoUNCIj4g+kks34kIoqaUkqKmhRY4JCqODNP3dMt/rTAWw3jB9HlUktwD+d9r+Ml1J8LvNUeuFUCbd8S3GrB1j/xnvbHZ+6pin9R4JAChwTEVU9rI5Hguwd+IAAAAABJRU5ErkJggg==" InformativeScreenshot="2d86f98c743b3280cd40efbb5eefbb03.png" Reference="rXCorVzSrUynV6WzqA70lg/THeAXPjQm02GwK9sLB1QFQ" ScopeSelectorArgument="&lt;wnd app='notepad++.exe' cls='Notepad++' title='C:\Users\coramia.motoi.UIPATH\.ssh\id_ed25519.pub - Notepad++' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
               </uix:NClick.Target>
