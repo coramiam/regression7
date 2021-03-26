@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="yhBNX_DZxEiqM8hVob0hSQ" DesignTimeRectangle="11, 124, 1916, 884" FriendlyName="'ssh-ed25519 AAAAC3NzaC1…'" FullSelectorArgument="&lt;wnd cls='Scintilla' title='N' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Scintilla' title='N' check:text='ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEFsMZd/ogRJA44DTNfmTHbADCnghQxHMtIW7yud7cEI coramia.motoi' /&gt;" ScopeSelectorArgument="&lt;wnd app='notepad++.exe' cls='Notepad++' title='C:\Users\coramia.motoi.UIPATH\.ssh\id_ed25519.pub - Notepad++' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0tCb5cIFd0k6kXPGAj0OBtg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="a7b7cbdd686ebd61f6bfadf728479dd8.png" xmlns="">0s3D9xVKk30CzM0fov1P4cg</imageRef>
+</TargetAnchorable>
