@@ -1,26 +1,23 @@
 {
-  "name": "REFramework",
-  "projectId": "fd225162-0bb0-41de-b48b-73548d756fee",
-  "description": "Robotic Enterprise Framework",
+  "name": "MyNewAwesomeProcess",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.10.3-beta.1504331]",
-    "UiPath.System.Activities": "[21.4.0-preview]",
-    "UiPath.UIAutomation.Activities": "[21.4.0-preview]"
+    "UiPath.Excel.Activities": "[2.11.0-beta.1688660]",
+    "UiPath.Mail.Activities": "[1.11.0-beta.1691556]",
+    "UiPath.System.Activities": "[21.6.0-beta.1691931]",
+    "UiPath.UIAutomation.Activities": "[21.6.0-beta.1691883]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.4.0.0",
+  "studioVersion": "21.6.0.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
-    "netFrameworkLazyLoading": false,
     "isPausable": true,
-    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
-    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -28,8 +25,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": false,
-    "pipType": "ChildSession"
+    "mustRestoreAllDependencies": true
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -42,13 +38,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "saveToCloud": false
+    "modernBehavior": true
   },
-  "expressionLanguage": "VisualBasic",
+  "expressionLanguage": "CSharp",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "7363e08c-069d-49eb-a80f-f909d1fb25b3",
+      "uniqueId": "e4831979-7860-46ef-95fd-e5fa9ab486d9",
       "input": [],
       "output": []
     }
@@ -56,5 +52,6 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Windows",
+  "coverageMergeWorkflowPath": ""
 }

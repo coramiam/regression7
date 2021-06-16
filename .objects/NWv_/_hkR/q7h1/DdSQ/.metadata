@@ -1,0 +1,13 @@
+﻿{
+  "Id": "DdSQySgtw0mIafNUgMD-tw",
+  "Reference": "M6-B7PlJ6E-3XxQXWsNbTQ/DdSQySgtw0mIafNUgMD-tw",
+  "ParentRef": "M6-B7PlJ6E-3XxQXWsNbTQ/q7h1fXPztUGP9Y9zf5RHNg",
+  "Name": "Result",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2021-06-15T12:21:11.2347658Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.5.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-06-15T12:21:11.2347658Z"
+}
