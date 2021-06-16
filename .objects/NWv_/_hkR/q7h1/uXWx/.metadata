@@ -1,0 +1,13 @@
+﻿{
+  "Id": "uXWxna2iVUSdRrFzDTNzaA",
+  "Reference": "M6-B7PlJ6E-3XxQXWsNbTQ/uXWxna2iVUSdRrFzDTNzaA",
+  "ParentRef": "M6-B7PlJ6E-3XxQXWsNbTQ/q7h1fXPztUGP9Y9zf5RHNg",
+  "Name": "5",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-06-15T12:21:11.1114698Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.5.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-06-15T12:21:11.1114698Z"
+}

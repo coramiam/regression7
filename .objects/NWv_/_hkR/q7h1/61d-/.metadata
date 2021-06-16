@@ -1,0 +1,13 @@
+﻿{
+  "Id": "61d-E2JWiEm0rHW-zchUqg",
+  "Reference": "M6-B7PlJ6E-3XxQXWsNbTQ/61d-E2JWiEm0rHW-zchUqg",
+  "ParentRef": "M6-B7PlJ6E-3XxQXWsNbTQ/q7h1fXPztUGP9Y9zf5RHNg",
+  "Name": "Plus sign",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-06-15T12:21:11.2041954Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.5.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-06-15T12:21:11.2041954Z"
+}

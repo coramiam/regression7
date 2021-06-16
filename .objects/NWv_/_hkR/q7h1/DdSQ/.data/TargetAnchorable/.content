@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="4SNb6GiuykG9gXmIlYdd1Q" DesignTimeRectangle="9, 123, 471, 116" ElementType="Text" FriendlyName="'0'" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='CalculatorResults' name='Display is *' role='text' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='CalculatorResults' name='Display is *' role='text' check:fulltext='0' /&gt;" Reference="M6-B7PlJ6E-3XxQXWsNbTQ/DdSQySgtw0mIafNUgMD-tw" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='Calculator' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0pt3tPeuZWUaqJALyuEv94g</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="76a727f3e52e7ada4785436eaa7b6ea9.png" xmlns="">0ljTld-Q0ikquLplBSOCa5w</imageRef>
+</TargetAnchorable>
