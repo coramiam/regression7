@@ -1,12 +1,12 @@
-﻿{
+{
   "name": "MyNewAwesomeProcess",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.11.0-beta.1688660]",
-    "UiPath.Mail.Activities": "[1.11.0-beta.1691556]",
-    "UiPath.System.Activities": "[21.6.0-beta.1691931]",
-    "UiPath.UIAutomation.Activities": "[21.6.0-beta.1691883]"
+    "UiPath.Excel.Activities": "[2.11.3]",
+    "UiPath.Mail.Activities": "[1.12.1]",
+    "UiPath.System.Activities": "[21.10.0-beta.1986181]",
+    "UiPath.UIAutomation.Activities": "[21.10.1-beta.1986549]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -16,6 +16,7 @@
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
