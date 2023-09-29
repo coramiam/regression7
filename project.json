@@ -7,7 +7,7 @@
     "UiPath.Excel.Activities": "[2.11.3]",
     "UiPath.Mail.Activities": "[1.12.1]",
     "UiPath.System.Activities": "[21.10.0-beta.1986181]",
-    "UiPath.UIAutomation.Activities": "[21.10.1]"
+    "UiPath.UIAutomation.Activities": "[23.10.1-beta.4420808]"
   },
   "webServices": [],
   "entitiesStores": [],
