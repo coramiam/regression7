@@ -1,10 +1,11 @@
 {
   "name": "REFramework",
+  "projectId": "fd225162-0bb0-41de-b48b-73548d756fee",
   "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.10.3-beta.1504331]",
-    "UiPath.System.Activities": "[21.4.0-beta.1503564]",
+    "UiPath.System.Activities": "[21.4.0-preview]",
     "UiPath.UIAutomation.Activities": "[21.4.0-preview]"
   },
   "webServices": [],
@@ -14,16 +15,21 @@
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -36,7 +42,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
