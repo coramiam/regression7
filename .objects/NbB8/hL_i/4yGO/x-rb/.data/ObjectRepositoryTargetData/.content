@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aNHn0L3GrES3CFrB0zXDuQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.google.com/search?q=galati+vremea&amp;rlz=1C1GCEA_enRO1057RO1057&amp;oq=galati+vreme&amp;gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDE0NjNqMGo3qAIIsAIB&amp;sourceid=chrome&amp;ie=UTF-8" DesignTimeRectangle="235, 448, 125, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Vremea Galați' tag='H3' type='' class='LC20lb MBeuO DKV0Md' check:innerText='Vremea Galați' /&gt;" Guid="430a54a7-7779-4795-b7c3-35d28027e851" ScopeSelectorArgument="&lt;html app='chrome.exe' title='galati vremea - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="16eba06edc82f56c7b95ec683ea1792f.png" xmlns="">0wmgWJ6p5UUKWCOgcc5b_Uw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

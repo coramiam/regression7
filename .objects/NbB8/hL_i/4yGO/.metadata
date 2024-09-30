@@ -1,0 +1,13 @@
+﻿{
+  "Name": "galati vremea - Google Search",
+  "Type": "Screen",
+  "Id": "4yGO_tKZqUGqrl7IwkM4JQ",
+  "Reference": "hiDy5VmkOkqMmioCQlUCFQ/4yGO_tKZqUGqrl7IwkM4JQ",
+  "ParentRef": "hiDy5VmkOkqMmioCQlUCFQ/hL_iNWZm_E6qJGCvBr_gxQ",
+  "Created": "2024-09-30T07:51:16.2692153Z",
+  "Updated": "2024-09-30T07:51:16.2692153Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

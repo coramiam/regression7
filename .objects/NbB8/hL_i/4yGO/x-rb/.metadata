@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Vremea Galați'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "x-rb6nhL7E6VnzU49DABtA",
+  "Reference": "hiDy5VmkOkqMmioCQlUCFQ/x-rb6nhL7E6VnzU49DABtA",
+  "ParentRef": "hiDy5VmkOkqMmioCQlUCFQ/4yGO_tKZqUGqrl7IwkM4JQ",
+  "Created": "2024-09-30T07:51:16.3179595Z",
+  "Updated": "2024-09-30T07:51:16.3179595Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="PU6Fuha8Zk-b4rtBEJFnkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Chrome" Selector="&lt;html title='galati vremea - Google Search' app='chrome.exe' /&gt;" Title="galati vremea - Google Search" Url="https://www.google.com/search?q=galati+vremea&amp;rlz=1C1GCEA_enRO1057RO1057&amp;oq=galati+vreme&amp;gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDE0NjNqMGo3qAIIsAIB&amp;sourceid=chrome&amp;ie=UTF-8">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <imageRef attrName="InformativeScreenshot" originalValue="dddfa99c1c8d325453e11dda59e0d669.jpg" xmlns="">0RZKCeHWCi0K_eOPhQ5AWDQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

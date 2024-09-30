@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="qo69Y9g6iEecxzVnvHAoFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Chrome" Selector="&lt;html title='week 43 - Google Search' app='chrome.exe' /&gt;" Title="week 43 - Google Search" Url="https://www.google.com/search?q=week+43&amp;rlz=1C1GCEA_enRO1057RO1057&amp;oq=week+43+&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM2OTRqMGo3qAIAsAIA&amp;sourceid=chrome&amp;ie=UTF-8">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <imageRef attrName="InformativeScreenshot" originalValue="dddfa99c1c8d325453e11dda59e0d669.jpg" xmlns="">0DsfnE1yrI02nhTM7B1fx9A</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

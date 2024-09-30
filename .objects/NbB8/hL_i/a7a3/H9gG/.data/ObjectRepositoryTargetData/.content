@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WfHO8MQkZEeR_u8s1p5MRQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.google.com/search?q=week+43&amp;rlz=1C1GCEA_enRO1057RO1057&amp;oq=week+43+&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM2OTRqMGo3qAIAsAIA&amp;sourceid=chrome&amp;ie=UTF-8" DesignTimeRectangle="275, 327, 232, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='VuuXrf' parentid='rso' tag='SPAN' type='' aaname='calendar.online' check:innerText='calendar.online' /&gt;" Guid="079b640c-f382-48c6-b1ce-94489d846555" ScopeSelectorArgument="&lt;html app='chrome.exe' title='week 43 - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="ef1d58dca2b55799e430f098db0210e2.png" xmlns="">0oPVh4chMfk2ifsWbMzphzg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

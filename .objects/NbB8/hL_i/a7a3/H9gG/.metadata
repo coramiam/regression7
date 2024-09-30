@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'calendar.online'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "H9gGODySzkW0RZSNx5lYeg",
+  "Reference": "hiDy5VmkOkqMmioCQlUCFQ/H9gGODySzkW0RZSNx5lYeg",
+  "ParentRef": "hiDy5VmkOkqMmioCQlUCFQ/a7a37h2LGkq8NrniLYSmmQ",
+  "Created": "2024-09-30T07:51:16.1086578Z",
+  "Updated": "2024-09-30T07:51:16.1086578Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

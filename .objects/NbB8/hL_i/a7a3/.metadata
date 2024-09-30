@@ -1,0 +1,13 @@
+﻿{
+  "Name": "week 43 - Google Search",
+  "Type": "Screen",
+  "Id": "a7a37h2LGkq8NrniLYSmmQ",
+  "Reference": "hiDy5VmkOkqMmioCQlUCFQ/a7a37h2LGkq8NrniLYSmmQ",
+  "ParentRef": "hiDy5VmkOkqMmioCQlUCFQ/hL_iNWZm_E6qJGCvBr_gxQ",
+  "Created": "2024-09-30T07:51:16.0133841Z",
+  "Updated": "2024-09-30T07:51:16.0133841Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
