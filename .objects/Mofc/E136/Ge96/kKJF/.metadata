@@ -1,0 +1,13 @@
+﻿{
+  "Name": "ro-local-broker",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "kKJF4udNUUS9TIb-IGaH8w",
+  "Reference": "gTvDew9MKEG7z2I_WDFqMg/kKJF4udNUUS9TIb-IGaH8w",
+  "ParentRef": "gTvDew9MKEG7z2I_WDFqMg/Ge96_Jbieky5xBh-UbqSMw",
+  "Created": "2025-09-03T08:00:46.0992013Z",
+  "Updated": "2025-09-03T08:00:46.0992013Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
