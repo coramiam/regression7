@@ -1,4 +1,9 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="argument1" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -37,6 +42,7 @@
       <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -82,26 +88,38 @@
       <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1108,1086.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1108,1316.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Horia Belu, Liviu Ponova-Trandafir (DM) - UiP" sap:VirtualizedContainerService.HintSize="450,1064" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="3700637b-d8ae-41e1-8091-62fc24608ab4" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Horia Belu, Liviu Ponova-Trandafir (DM) - UiP" sap:VirtualizedContainerService.HintSize="450,1294" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="3700637b-d8ae-41e1-8091-62fc24608ab4" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,744" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,974" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Add Queue Item" sap:VirtualizedContainerService.HintSize="382,230" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="Normal" QueueType="1_queue">
+              <ui:AddQueueItem.ItemInformation>
+                <InArgument x:TypeArguments="x:String" x:Key="StringField">stringvalue</InArgument>
+                <InArgument x:TypeArguments="x:Int32" x:Key="IntegerField">0</InArgument>
+                <InArgument x:TypeArguments="x:Boolean" x:Key="BooleanField">False</InArgument>
+                <InArgument x:TypeArguments="x:Int32" x:Key="NumberField">12</InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="NullField" />
+              </ui:AddQueueItem.ItemInformation>
+            </ui:AddQueueItem>
             <uix:NHover DisplayName="Hover 'buc-lostandfound'" sap:VirtualizedContainerService.HintSize="382,229.33333333333334" sap2010:WorkflowViewState.IdRef="NHover_1" ScopeIdentifier="3700637b-d8ae-41e1-8091-62fc24608ab4" Version="V4">
               <uix:NHover.Target>
                 <uix:TargetAnchorable ContentHash="NsFzaC2DME2ZVdwrxRVIyA" DesignTimeRectangle="150, 468, 73, 34" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;ctrl name='Horia Belu, Liviu Ponova-Trandafir (DM) - UiPath - 1 new item - *' role='document' /&gt;&lt;ctrl name='UiPath' role='property page' /&gt;&lt;ctrl name='Home' role='property page' /&gt;&lt;ctrl name='Home' role='grouping' /&gt;&lt;ctrl name='Channels and direct messages' role='outline' /&gt;&lt;ctrl name='house Bucharest' role='outline item' /&gt;&lt;ctrl idx='19' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Horia Belu, Liviu Ponova-Trandafir (DM) - UiPath - 1 new item - *' role='document' /&gt;&lt;ctrl name='UiPath' role='property page' /&gt;&lt;ctrl name='Home' role='property page' /&gt;&lt;ctrl name='Home' role='grouping' /&gt;&lt;ctrl name='Channels and direct messages' role='outline' /&gt;&lt;ctrl name='house Bucharest' role='outline item' /&gt;&lt;ctrl automationid='' role='grouping' check:text='buc-food' /&gt;" Guid="a5a8f617-65c7-41b8-b0f1-fe7a4783e78b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE0AAAAmCAYAAACBOhYpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAubSURBVGhDnZrtU1fHFcf923zIu/o+IzqdaPuiY31FG20i/EgK4mM1atVAGgiiiSaKJSEqiYLPNipWtFUT0DqoFAUVUCSgp/M9e87u2b17cdI7s3O49+6ePXfPZ7+793eZt3BpLWXLskpkF8l1tQuX4rrU4XqmHf7W9km7RdJu0bIK/w0b961+65z1fuuCX7TFufh1xZ27eq5OqA8f4k+say92WS1bjkmup/XZr9h53FGVBJa1FVq4pMadL6mlBUtraYHcL7PcDsFquzK/YhcskfZi4/tJO5scvS4D5/qvcIyox+c8cIlfLVUm8ahThedDe3fdWe1D/67IoGVKyISrzFT4xjkSbGY1M5YwOfcZDcX1KaQUMuv8OiIcCUqEEsZ9GBJi0uYiLPHHscj9QhzqF6Rh9HMZVQtaUPjvQJqzNVnyXHtpl/rztpw0JSbfTokDyeE8xFGJ48HAFQi2pBmCU9KsHxPvHKS5huVaZtE100CznPqT+lbLYtKsVR9Ki8Sj9TOaFpNpSdNYlTh5LjOTcqR58rOk4UYuk2pRNFORpiETjqSYMGPfSJobqDxhCWlCQpSUxK9vzw9r2uHc+tWipHF9JatImm8vSSmSpoRpRn02tQNtrJnQkqxuUt+TyhoUExYoQ4m1J/gP2qMW7d6SWaB+LQlBAwMpqlHq561Ey3Bu+1cSc/0HTcN8Bjl6LprFlKHgPkjjeo64+dA0OXf1DZ1MUOzP9qWZZJ9W07w/ISNtrwTpufRb0DRdPU097TevaRJPhrQonrymGdKq7OrnAtP7vr7iH2lI6jPRtCxp6ldJlntlmpb41RkS4tDYcn6VnDieuK6Sbv26MoemyT4LfxsS4tUyo1kIdE4tc5YfVjWtkFEJNPXLVh8qJg3XIrIKRFqtLPrHoKX7s5hUaVeqaYaCck3T+lpMNqyWqWU6cpQlfgv+E8KEMt2feUK8pmk8omniL6yWsZaFWHKaav2WaFrNln10tPcKdZ+5Sk37u2nhkrVe05z+pBq2lttFGUHxbxBv0DTvV/3hXkJYVS0tXtFA21q+pmOn+qito5feXrU5up+SxvYXksZaVuUoU9I27DnMY4Gy4eOOPGltHT00MzNLOK7cGORrfh+UEpElTadP8GlJc5n+ZaRtaj5Co08nOCYc45Mv6MPtB8IbiidNi4kn4zcQG2taXM+17+q54vvF39pHpGlth82gXR+Y453zDfuznNZ56zKNQOP9WXwf57+u/ogG7w1zPK9fE01MvqAfrv3E163fQJoMGs6zpMmgJKum3ldN03ZdPZfjQRP/5aRh0Aqk2UxIu4g0za7VtKKWFUkzxZNQoYZdX9Lki5ccz/Cjp7SqrjlorGhbIMxShqIa5cr/o2mWtG+FNKNpTntS0t5d30pdJy9T9+mrtOOzLpovmrZhzyGe58dZ+477/d2+v5/i69DFmi37/fXFK+ppd/tRrt995p+0t6OX3vnjDu9P92fY96mmQU/OXPo3Tf88w/E8Hhvn9oeOnvek/a5mD3119Dxfh95t/bST9U81Tf1CA5s+7+a+tf/lq3eIhoquLq3Qyrpm6jxxifpuDNLh4xfo2OmrftBKSKtEpEFHNGAcmB6X+n+ixb9piLC9cmPAk3Z3aISvwcfejh72u6mpI9IkPSafT1HroZNF0oRk24c9Ho09o/c3t9P3Z69F8eF4/fo1DQ0/ppqt+z31u9uP0ZNnk1E9HCC4/cgpr2cY1InJqagO/OkRa5qMNk9PQxoaPB1/Tg/+O0avXr3ia7jXdrg3HjRMY8msHTQkoLqhhUYeP/X+Rp+Mc52X0z9zQaDoVzUpaE8trd7QRhev3qaZWRfPy+kZujM0QpevD1Dvxes+JgwcfI4+mfAPOfTwMZNUv+MgLxyuf6KHI09o6OEozc66tlMvp2ln27dUva6VRkaf+TiHHz1hnzYpjjT3nJ40jDiWcx20H+884I6hGxf6bvnGGKSYtEGfgZS0I90Xw4MMj9KKNTu5H9g/bdzL/X594hIN3BuOCghEvcY9h+jF1DS3fzQ2Tn9obKWVtR/zQ2k/+zpPc9/L1+xkyvj67Cx93nmGzl2+6ePElMMsgSb1XLzOg4ij/+Z/6GDXOT+QiHP56p3s005Pp2lunObUNH13PPDNWe8UA1MkzdWLSDvcw/f0gOa4ekIUNGxJTVRHD/jH/cZdX9HzKbcQYNCq6z+lxl2H/DVMu/c37/PadNYMEqRE40HsGBjXd4V1GKTjAGE3B+77difP9/vVvLh6uutB0xLS7Oppta4waExaXtPsgCBTxVWznDT4S0mrXtdC63fjmhnIxla/csbJHEzi6fWr5/rE7+07D3w7HhxZxYv7tJS0kn0aRh0PrNPs+u17GdKKg4aBttPjQt9tr1nxG0C6jwoaa6niAWpooQ+2H6DxCadTsDjX/RmmoB4nL/T7wUDsR7r/4fdp7QYOTEckXg/ErPEUSJMtVqmmYQBW1TXR7+ua6f7wKF9D553f/0AHu8J0xT3U2fzJERqTVVIz+8mB77yYTjyfYtFd/NsGXs4x+E7XzP6MrQssq2nrWliXfrz70Mdz4nw/+9zU3MELFw60+ajlG45Vk43nQZzQ05uDbjri1olz/ax/M/I8WFCw+tb/9Uv/3DjCPo1JA01FTcsdD0fGaGWlidZs/MwPUO5QTfvVinq6dvNutHTrgWvn+25xv65/+SXYaGxO03B96986OQm5A34v9w/wfu2dd7fzdC87oGdrNu6llXVNvLKmB3xp6KBOtS6raVjOsbRjL6WN7z14TDV/2S96VMu6E+67zeeZS//itkFDajmzEGWbDIgwpitW53h/Znf1RdKgafpGALKxfbD5QN3vzl1jGtUf6MKz2P4xS24N3ufprvU2NYV3XPjE3yD1ubyR5DVNLf+qITv55fVU2fYF77wdEfqrRqj/3qZ2qm5wBPCvIqk/sch83bYvOFBelfUd1teDpum5DBxrrS4c1p9qYg29vWoL/XnHQapubPHXnVV/4Z0TsSIGxIKk+HdWGTicv7cZzyODKb9q6JtAommyqsn7XHjflM59UQocCcEWv1rpKqkrZrxypn5V04JfH4+W6J1T6vuSxCPvu/65ondOG4vtX98588XGw5qmGXTfBMJ3TvduqAXvhjFp7l3RtE9IS0liP/xNIPhP7xfae2KCv7j/8DvafKUw8qf7Qqmn95ksfLeVL/Il8fr2nmAmLRDhMhSIib8JKAmKqc2s0hOKUlXM7ptIc8Vmlq2fAba+JU1jy/l1pKnfLGn++YqUpfEYTcM3Af2lVjLqf6nVDGc0Cx3NoWVq3TeBOKMpCVG7VNOMP69Ftj3XN4X70/syKBqv/yYgfmwfGicGSc8TWOZ5wiTTcUZN5owQBg0JhFhCrfYUSSspZYR5ysRmKAjxhHjtc7mS/n6W9m9s1L9+G4hI030a9Aakwbpz1TT3fRMWRLlza52WGavXIxs0UrXMt4/I06KaFjSw4M9bl7AyTXNaFmum+yYQa5r6C+11Bjj/rh7/3O3w5ZE03znddasREpDVNGsVeyWO/SWUSefBf0Ka+jM0OGtX9JQMQ5q9LyX4meubQJG0UJIZwB+LfWZV09zqyVpmVs+Q6aAtbPm/g+bSNE0G3jljP0qCq5v6VQ1SbRJCTLsQjyat2G/Bv/HrNS3XjuvZJGsfqml+9NOMGlumaUqWt0F7Uk3LkRBneA5NE1tGgvcjxZKaK6Gu2Z/5OOL+Uxs0jbUsaBquBU1TLctp1tqClmlJCXVaFuqphjjtSNp7ArQ4P1qQ8ai91z4tdl/mCreTNwmvZYY0+43Ct2e6xL/cn8cjC+2RmxFpFlNkU22UWUOa/rtBRtNC5ybLXtMsySazSq0hOCIiJb+ENPVXpAyl/H82bAnxWE3zbwJKml2t7JuAkqAaEEjIn5tMJ28AsbX1i1pmrWY8JaHoF9eMNonfsD9TKDLtFBaBwtb7HwRD1QTeGNZ8AAAAAElFTkSuQmCC" InformativeScreenshot="b98c433541c8ab8a98bbae8ddc4f59e2.png" Reference="gTvDew9MKEG7z2I_WDFqMg/8KTU7UuNlkCF14v0FIkHTg" ScopeSelectorArgument="&lt;wnd app='slack.exe' cls='Chrome_WidgetWin_1' title='Horia Belu, Liviu Ponova-Trandafir (DM) - UiPath - 1 new item - *' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
